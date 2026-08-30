@@ -42,11 +42,22 @@
 </body>-->
   <main class="resume">
     <aside class="sidebar">
-      <div class="profile">
-        <div class="avatar">HH</div>
-        <h1>Hammad Hassan</h1>
-        <p class="headline">Ecommerce / Supply Chain Manager</p>
-      </div>
+<div class="profile">
+  <label for="profileImage" class="avatar">
+    <img id="profilePreview" src="" alt="Hammad Hassan">
+    <span id="avatarText">HH</span>
+  </label>
+
+  <input
+    type="file"
+    id="profileImage"
+    accept="image/*"
+    hidden
+  >
+
+  <h1>Hammad Hassan</h1>
+  <p class="headline">Ecommerce / Supply Chain Manager</p>
+</div>
 
       <section class="side-section">
         <h2>Contact</h2>
@@ -152,5 +163,6 @@
       </section>
     </section>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
